@@ -9,3 +9,10 @@
 .flex-child:first-child {
   margin-right: 20px;
 }
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
