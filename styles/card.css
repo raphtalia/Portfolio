@@ -1,0 +1,31 @@
+.card {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 200px;
+  width: calc(100% - 240px);
+}
+
+.card-title {
+  color: rgb(20, 20, 20);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+
+.card-description {
+  color: rgb(20, 20, 20);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-logo {
+  border-radius: 20px;
+  margin: 20px;
+}
