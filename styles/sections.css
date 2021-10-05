@@ -8,3 +8,28 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.nav-circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: rgb(20, 20, 20);
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.nav-circle-text {
+  width: 100%;
+  color: rgb(20, 20, 20);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}

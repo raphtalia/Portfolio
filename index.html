@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/flex.css">
     <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/sections.css">
     <link rel="stylesheet" href="styles/card.css">
 
@@ -18,13 +20,13 @@
 </head>
 
 <body>
+    <nav>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link">Experience</a>
+        <a class="nav-link">Contacts</a>
+    </nav>
     <header>
         <div class="hero-image">
-            <nav>
-                <a class="nav-link">Projects</a>
-                <a class="nav-link">Experience</a>
-                <a class="nav-link">Contacts</a>
-            </nav>
             <img class="hero-logo" src="https://avatars.githubusercontent.com/u/59540801?v=4" alt="Logo">
             <h1 class="hero-title">Lorem ipsum dolor</h1>
             <h2 class="hero-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta saepe
@@ -32,43 +34,64 @@
                 reiciendis necessitatibus et maxime placeat hic.</h2>
         </div>
     </header>
-    <section class="section-projects">
-        <section class="card">
-            <div class="flex-container">
-                <div>
-                    <h1 class="card-title">Lorem ipsum dolor</h1>
-                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta
-                        saepe
-                        dolores sit facilis iure reprehenderit, vitae a voluptate consequuntur hic. Sequi iure inventore
-                        reiciendis necessitatibus et maxime placeat hic.</p>
-                </div>
-                <img class="card-logo" src="https://avatars.githubusercontent.com/u/59540801?v=4" alt="Logo">
+    <section id="projects" class="section-projects">
+        <div class="flex-container">
+            <div class="nav-circle">
+                <h1 class="nav-circle-text">01</h1>
             </div>
-        </section>
-        <section class="card">
-            <div class="flex-container">
-                <img class="card-logo" src="https://avatars.githubusercontent.com/u/59540801?v=4" alt="Logo">
-                <div>
-                    <h1 class="card-title">Lorem ipsum dolor</h1>
-                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta
-                        saepe
-                        dolores sit facilis iure reprehenderit, vitae a voluptate consequuntur hic. Sequi iure inventore
-                        reiciendis necessitatibus et maxime placeat hic.</p>
+            <section class="card">
+                <div class="flex-container">
+                    <div class="card-content">
+                        <h1 class="card-title">Lorem ipsum dolor</h1>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                            dicta
+                            saepe
+                            dolores sit facilis iure reprehenderit, vitae a voluptate consequuntur hic. Sequi iure
+                            inventore
+                            reiciendis necessitatibus et maxime placeat hic.</p>
+                    </div>
+                    <img class="card-logo" src="https://avatars.githubusercontent.com/u/59540801?v=4" alt="Logo">
                 </div>
+            </section>
+        </div>
+        <div class="flex-container">
+            <div class="nav-circle">
+                <h1 class="nav-circle-text">02</h1>
             </div>
-        </section>
-        <section class="card">
-            <div class="flex-container">
-                <div>
-                    <h1 class="card-title">Lorem ipsum dolor</h1>
-                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta
-                        saepe
-                        dolores sit facilis iure reprehenderit, vitae a voluptate consequuntur hic. Sequi iure inventore
-                        reiciendis necessitatibus et maxime placeat hic.</p>
+            <section class="card">
+                <div class="flex-container">
+                    <img class="card-logo" src="https://avatars.githubusercontent.com/u/59540801?v=4" alt="Logo">
+                    <div class="card-content">
+                        <h1 class="card-title">Lorem ipsum dolor</h1>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                            dicta
+                            saepe
+                            dolores sit facilis iure reprehenderit, vitae a voluptate consequuntur hic. Sequi iure
+                            inventore
+                            reiciendis necessitatibus et maxime placeat hic.</p>
+                    </div>
                 </div>
-                <img class="card-logo" src="https://avatars.githubusercontent.com/u/59540801?v=4" alt="Logo">
+            </section>
+        </div>
+        <div class="flex-container">
+            <div class="nav-circle">
+                <h1 class="nav-circle-text">03</h1>
             </div>
-        </section>
+            <section class="card">
+                <div class="flex-container">
+                    <div class="card-content">
+                        <h1 class="card-title">Lorem ipsum dolor</h1>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                            dicta
+                            saepe
+                            dolores sit facilis iure reprehenderit, vitae a voluptate consequuntur hic. Sequi iure
+                            inventore
+                            reiciendis necessitatibus et maxime placeat hic.</p>
+                    </div>
+                    <img class="card-logo" src="https://avatars.githubusercontent.com/u/59540801?v=4" alt="Logo">
+                </div>
+            </section>
+        </div>
     </section>
 </body>
 
