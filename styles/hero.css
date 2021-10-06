@@ -1,17 +1,30 @@
 .hero-image {
   height: 400px;
+}
+
+.hero-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 400px;
   background: rgb(32, 238, 175);
   background: radial-gradient(
     circle at top left,
     rgba(32, 238, 175, 1) 0%,
     rgba(9, 9, 121, 1) 100%
   );
+  transform: skewY(-5deg) translateY(-50%);
+  height: 1200px;
 }
 
 .hero-logo {
   width: 200px;
-  border-radius: 10%;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   position: relative;
   left: 40px;
   top: 50%;
@@ -28,7 +41,7 @@
   transform: translateY(-100%);
   margin: 0;
   width: calc(100% - 400px);
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .hero-subtitle {
@@ -41,5 +54,5 @@
   transform: translateY(-100%);
   margin: 0;
   width: calc(100% - 400px);
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }

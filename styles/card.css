@@ -1,4 +1,15 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .card {
+  animation: 2s fadeIn;
+
   background: rgb(255, 255, 255);
   background: radial-gradient(
     circle at top left,
@@ -8,7 +19,7 @@
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   position: relative;
   width: calc(100% - 240px);
   /* transform: skew(45deg); */
@@ -40,6 +51,6 @@
 }
 
 .card-logo {
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 20px;
 }
