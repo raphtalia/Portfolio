@@ -1,4 +1,4 @@
-.card {
+.project-card {
   animation: 1.5s flipIn;
 
   background: rgb(255, 255, 255);
@@ -16,12 +16,12 @@
   /* transform: skew(45deg); */
 }
 
-.card-content {
+.project-card-content {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.card-title {
+.project-card-title {
   color: rgb(20, 20, 20);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -31,7 +31,7 @@
   padding-right: 20px;
 }
 
-.card-date {
+.project-card-date {
   color: rgb(40, 40, 40);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -41,7 +41,7 @@
   padding-right: 20px;
 }
 
-.card-description {
+.project-card-description {
   color: rgb(20, 20, 20);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -50,17 +50,17 @@
   padding: 20px;
 }
 
-.card-logo1 {
+.project-card-logo1 {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-.card-logo2 {
+.project-card-logo2 {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.card-button {
+.project-card-button {
   background: rgb(0, 0, 0);
   background: radial-gradient(
     circle at bottom left,
@@ -76,7 +76,7 @@
   padding: 0;
 }
 
-.card-button:hover {
+.project-card-button:hover {
   background: radial-gradient(
     circle at bottom left,
     rgba(40, 40, 40, 1) 0%,
@@ -84,7 +84,7 @@
   );
 }
 
-.card-button-text {
+.project-card-button-text {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
