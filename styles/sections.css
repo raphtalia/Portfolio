@@ -1,3 +1,13 @@
+.section-title {
+  color: rgb(20, 20, 20);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+  position: relative;
+  left: 20px;
+}
+
 .section-projects {
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -11,6 +21,41 @@
   transform: translateY(-20px);
   margin-left: 60px;
   margin-right: 60px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-experience {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(200, 200, 200, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  transform: translateY(-20px);
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-contacts {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(200, 200, 200, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  transform: translateY(-20px);
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 40px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
