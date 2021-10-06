@@ -3,6 +3,8 @@
 }
 
 .hero-image:after {
+  animation: 1s heroSlideInFromTop;
+
   content: "";
   position: absolute;
   top: 0;

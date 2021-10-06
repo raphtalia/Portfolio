@@ -28,3 +28,21 @@
     opacity: 1;
   }
 }
+
+@keyframes heroSlideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: skewY(-5deg) translateY(-50%);
+  }
+}
+
+@keyframes sectionsSlideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
