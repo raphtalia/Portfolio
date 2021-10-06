@@ -1,0 +1,44 @@
+.contact-card {
+  width: fit-content;
+  background-color: white;
+  border-radius: 4px;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle at bottom left,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(60, 60, 60, 1) 100%
+  );
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  margin: 20px;
+}
+
+.contact-card:hover {
+  background: radial-gradient(
+    circle at bottom left,
+    rgba(40, 40, 40, 1) 0%,
+    rgba(80, 80, 80, 1) 100%
+  );
+}
+
+.contact-card-icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin: 0;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  filter: brightness(0) invert(1);
+}
+
+.contact-card-title {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-right: 10px;
+}
