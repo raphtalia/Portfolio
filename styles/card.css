@@ -1,14 +1,5 @@
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .card {
-  animation: 2s fadeIn;
+  animation: 1.5s flipIn;
 
   background: rgb(255, 255, 255);
   background: radial-gradient(
@@ -40,17 +31,74 @@
   padding-right: 20px;
 }
 
+.card-date {
+  color: rgb(40, 40, 40);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .card-description {
   color: rgb(20, 20, 20);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
   margin: 0;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 
-.card-logo {
-  border-radius: 10px;
-  margin: 20px;
+.card-logo1 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-logo2 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-button {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle at bottom left,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(60, 60, 60, 1) 100%
+  );
+  position: absolute;
+  left: 20px;
+  top: calc(100% - 20px);
+  transform: translateY(-100%);
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.card-button:hover {
+  background: radial-gradient(
+    circle at bottom left,
+    rgba(40, 40, 40, 1) 0%,
+    rgba(80, 80, 80, 1) 100%
+  );
+}
+
+.card-button-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.github-button-logo {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+  padding: 10px;
 }

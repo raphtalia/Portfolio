@@ -7,14 +7,16 @@
   );
   padding-top: 20px;
   padding-bottom: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px;
   transform: translateY(-20px);
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .nav-circle {
+  animation: 1.5s flipIn;
+
   height: 40px;
   width: 40px;
   border-radius: 50%;

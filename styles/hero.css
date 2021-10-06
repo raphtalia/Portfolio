@@ -19,25 +19,30 @@
   );
   transform: skewY(-5deg) translateY(-50%);
   height: 1200px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .hero-logo {
+  animation: 2s fadeIn;
+
   width: 200px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   position: relative;
-  left: 40px;
+  left: 60px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .hero-title {
+  animation: 2s fadeIn;
+
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 50px;
   color: white;
   position: relative;
-  left: 280px;
+  left: 300px;
   transform: translateY(-100%);
   margin: 0;
   width: calc(100% - 400px);
@@ -45,12 +50,14 @@
 }
 
 .hero-subtitle {
+  animation: 2s fadeIn;
+
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
   color: white;
   position: relative;
-  left: 280px;
+  left: 300px;
   transform: translateY(-100%);
   margin: 0;
   width: calc(100% - 400px);
