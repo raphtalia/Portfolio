@@ -24,6 +24,7 @@ nav {
   padding-right: 20px;
   text-decoration: none;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .nav-link:hover {
